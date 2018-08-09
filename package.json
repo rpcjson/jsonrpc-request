@@ -1,0 +1,15 @@
+{
+  "name": "jsonrpc-request",
+  "version": "1.0.0",
+  "description": "Json rpc request",
+  "main": "dist/index.min.js",
+  "scripts": {
+    "build": "node-minify --compressor gcc --input index.js --output dist/index.min.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
